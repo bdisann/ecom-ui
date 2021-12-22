@@ -1,0 +1,28 @@
+.header-shadow {
+  box-shadow: 0rem 0.1rem 0.4rem 0.01rem rgb(235, 235, 235);
+}
+
+.logo-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.outline-none {
+  outline-style: none;
+}
+
+.search-header-card {
+  width: 50%;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
