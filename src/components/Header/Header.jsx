@@ -5,13 +5,14 @@ import { CardOutlineSecondary } from "../Card/Card";
 import { Cart } from "../Cart/Cart";
 import { Wishlist } from "../Wishlist/Wishlist";
 import { TopInfo } from "../TopInfo/TopInfo";
+import { SugestProductHeader } from "../SugestProduct/SugestProduct";
 
 export const Header = () => {
   return (
     <>
       <TopInfo />
       <div className="bg-white">
-        <ContainerFluid className="d-flex align-items-center justify-content-between py-3 header-shadow">
+        <ContainerFluid className="d-flex align-items-center justify-content-between py-3 pb-1">
           <div className="d-flex align-items-center cursor-pointer">
             <img src={Logo} className="logo-icon me-4" />
 
@@ -42,6 +43,7 @@ export const Header = () => {
           </div>
         </ContainerFluid>
       </div>
+      <SugestProductHeader />
     </>
   );
 };
